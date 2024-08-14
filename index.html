@@ -125,28 +125,25 @@
           <a href="#contact" class="project-btn">BOOK CHILDREN</a>
         </div>
       </div>
-
-
     </div>
 
-    <Section class="contactme">
-      <h1>fill this form to contact me</h1>
-      <div class="form">
-        <label for="name"><b></b></label>
-        <input type="text" placeholder="enter your name" id="name">
+    
+    <div class="form-container">
+      <form id="contactForm">
+          <h2>Contact Us</h2>
 
-        <label for="email"><b></b></label>
-        <input type="email" placeholder="enter your email" id="email">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
 
-        <label for="message"><b></b></label>
-        <input type="text" placeholder="enter your message" id="message">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
 
-        <label for="contact"><b></b></label>
-        <input type="number" placeholder="enter your number" id="name">
-<hr>
-        <button type="submit" class="button">submit</button>
-      </div>
-    </Section>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Submit</button>
+      </form>
+  </div>
 
 
   </section>
