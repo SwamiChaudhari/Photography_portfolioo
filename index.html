@@ -1,163 +1,177 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>replit</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
-  </head>
-  <body>
-<!-- Slideshow container -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!-- Slideshow container -->
 
 
-          <section id="header">
-           <div id="home" class="text-box">
-            <h1>Hi! I'm Swami</h1>
-            <p>I am a photographer who likes click photos<br>I like photographing landscapes, people, mountains and beautiful sceneries</p>
-            <a href="#portfolio" class="hero-btn">LEARN MORE</a>
+  <section id="header">
+    <div id="home" class="text-box">
+      <h1>Hi! I'm Swami</h1>
+      <p>I am a photographer who likes click photos<br>I like photographing landscapes, people, mountains and beautiful
+        sceneries</p>
+      <a href="#portfolio" class="hero-btn">LEARN MORE</a>
+    </div>
+  </section>
+
+  <section id="background-video">
+
+    <video class="video-cover" autoplay loop muted>
+      <source src="src/images/video-background.mp4">
+    </video>
+
+  </section>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <img src="src/images/mountain1.JPG" style="width:100%">
+      <div class="text">Caption One</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 6</div>
+      <img src="src/images/mountain2.JPG" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 6</div>
+      <img src="src/images/rain1.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 6</div>
+      <img src="src/images/rain2.jpg" style="width:100%">
+      <div class="text">Caption Four</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 6</div>
+      <img src="src/images/rain3.jpg" style="width:100%">
+      <div class="text">Caption Five</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 6</div>
+      <img src="src/images/trees1.jpg" style="width:100%">
+      <div class="text">Caption Six</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+
+  <section id="portfolio">
+
+    <div class="portfolio-text">
+      <h1> Gallery </h1>
+    </div>
+
+    <div class="cards">
+      <div class="card"><img class="project-2-img" src="src/images/mountain1.JPG">
+        <div>
+          <a href="#contact" class="project-btn">Rain</a>
         </div>
-    </section>
-
-<section id="background-video">
-
-          <video class="video-cover" autoplay loop muted >
-  <source src="src/images/video-background.mp4">
-</video>
-
-</section>
-
-<div class="slideshow-container">
-
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 6</div>
-    <img src="src/images/mountain1.JPG" style="width:100%">
-    <div class="text">Caption One</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 6</div>
-    <img src="src/images/mountain2.JPG" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 6</div>
-    <img src="src/images/rain1.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
-
-   <div class="mySlides fade">
-    <div class="numbertext">4 / 6</div>
-    <img src="src/images/rain2.jpg" style="width:100%">
-    <div class="text">Caption Four</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">5 / 6</div>
-    <img src="src/images/rain3.jpg" style="width:100%">
-    <div class="text">Caption Five</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">6 / 6</div>
-    <img src="src/images/trees1.jpg" style="width:100%">
-    <div class="text">Caption Six</div>
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-
-          
-
-<section id="portfolio">
-
-        <div class="portfolio-text">
-                <h1> Gallery </h1>
-                </div>
-
-<div class="cards">
-        <div class="card"><img class="project-2-img" src="src/images/mountain1.JPG"><div>
-                                <a href="#contact" class="project-btn">Rain</a>
-                    </div></div>
-                    
+      </div>
 
 
-                <div class="card"><img class="project-2-img" src="src/images/mountain3.jpg"><div>
-                                <a href="#contact" class="project-btn">mountains</a>
-                    </div></div>
 
-                        <div class="card"><img class="project-2-img" src="src/images/mountain4.jpg"><div>
-                               <a href="#contact" class="project-btn">sky</a>
-                    </div></div>
-
-                         <div class="card"><img class="project-2-img" class="project-2-img" src="src/images/trees1.jpg"><div>
-                                <a href="contact" class="project-btn">Trees</a>
-                    </div></div>
-
-                          <div class="card"><img class="project-2-img" src="src/images/sky1.jpg"><div>
-                                <a href="#contact" class="project-btn">BOOK CORPORATE</a>
-                    </div></div>
-
-                           <div class="card"><img class="project-2-img" src="src/images/trees3.jpg"><div>
-                                <a href="#contact" class="project-btn">BOOK CHILDREN</a>
-                    </div></div>
-
- 
-</div>
-
-<Section id="contactme">
-  <div class="form">
-    <h1>please fill this form to contact me</h1>
-
-    <label for="name"><b></b></label>
-    <input type="text" placeholder="enter your name" id="name">
-
-    <label for="email"><b></b></label>
-    <input type="email" placeholder="enter your email" id="email">
-
-    <label for="message"><b></b></label>
-    <input type="text" placeholder="enter your message" id="message">
-
-    <label for="contact"><b></b></label>
-    <input type="number" placeholder="enter your number" id="name">
-
-    <hr>
-    
-    <button type="submit" class="button">submit</button>
-  </div>
-</Section>
-
-
-</section>
-<section id="contact">
-
-        <div class="contact-text">
-                <h1>CONTACT</h1>
-                <h3>Swami1642004@Gmail.com</h3>                </div>
-                
-
-                </section>
-
-                <section class="footer">
-        
-        <div class="icons">
-            <a href="https://www.instagram.com/self_drawn_/"><i class="fa fa-instagram"></i></a>
-            <a href="https://x.com/SwamiChaudhar12"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/swami-chaudhari-a6b781244/"><i class="fa fa-linkedin"></i></a>
-            
+      <div class="card"><img class="project-2-img" src="src/images/mountain3.jpg">
+        <div>
+          <a href="#contact" class="project-btn">mountains</a>
         </div>
-        
-        
-</section>    
-    <script src="script.js"></script>
-  </body>
+      </div>
+
+      <div class="card"><img class="project-2-img" src="src/images/mountain4.jpg">
+        <div>
+          <a href="#contact" class="project-btn">sky</a>
+        </div>
+      </div>
+
+      <div class="card"><img class="project-2-img" class="project-2-img" src="src/images/trees1.jpg">
+        <div>
+          <a href="contact" class="project-btn">Trees</a>
+        </div>
+      </div>
+
+      <div class="card"><img class="project-2-img" src="src/images/sky1.jpg">
+        <div>
+          <a href="#contact" class="project-btn">BOOK CORPORATE</a>
+        </div>
+      </div>
+
+      <div class="card"><img class="project-2-img" src="src/images/trees3.jpg">
+        <div>
+          <a href="#contact" class="project-btn">BOOK CHILDREN</a>
+        </div>
+      </div>
+
+
+    </div>
+
+    <Section class="contactme">
+      <h1>fill this form to contact me</h1>
+      <div class="form">
+        <label for="name"><b></b></label>
+        <input type="text" placeholder="enter your name" id="name">
+
+        <label for="email"><b></b></label>
+        <input type="email" placeholder="enter your email" id="email">
+
+        <label for="message"><b></b></label>
+        <input type="text" placeholder="enter your message" id="message">
+
+        <label for="contact"><b></b></label>
+        <input type="number" placeholder="enter your number" id="name">
+<hr>
+        <button type="submit" class="button">submit</button>
+      </div>
+    </Section>
+
+
+  </section>
+  <section id="contact">
+
+    <div class="contact-text">
+      <h1>CONTACT</h1>
+      <h3>Swami1642004@Gmail.com</h3>
+    </div>
+
+
+  </section>
+
+  <section class="footer">
+
+    <div class="icons">
+      <a href="https://www.instagram.com/self_drawn_/"><i class="fa fa-instagram"></i></a>
+      <a href="https://x.com/SwamiChaudhar12"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/swami-chaudhari-a6b781244/"><i class="fa fa-linkedin"></i></a>
+
+    </div>
+
+
+  </section>
+  <script src="script.js"></script>
+</body>
+
 </html>
